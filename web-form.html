@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myscripts.js"></script>
+  </head>
+  <body>
+    <header class="header-form">
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="capital-page.html">Lansing</a></li>
+            <li><a href="Frankenmuth-page.html">Frankenmuth</a></li>
+            <li><a href="manistee-page.html">Manistee</a></li>
+            <li><a href="web-form.html">Questions</a></li>
+            </ul>
+        </nav>
+        <h1>Questions</h1>
+    </header>  
+    <main>
+        <content id="form">
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+                <br /><br /><br />
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname">
+                <br /><br /><br />
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+                <br /><br /><br />
+                <label for="cemail">Confirm Email:</label>
+                <input type="text" id="cemail" name="cemail">
+                <br /><br /><br />
+                <label for="question">Question:</label>
+                <textarea id="question" name="question" cols="50" rows="4" placeholder="Type your question(s) here!"></textarea>
+                <br /><br /><br />
+                <button onclick="checkInput()">Confirm & Enter</button>
+            </form>
+            <footer>
+                <cite>Created by: Jazmin Hazel</cite>
+            </footer>
+        </content>
+        <aside id="form-img">
+            <img id="form-photo" src="photos/pure-michigan.png" alt="pure Michigan logo">
+        </aside>
+    </main>
+  </body>
+</html>
